@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
 	
 	@Given("^user need to navigate on vtiger website$")
 	public void user_need_to_navigate_on_vtiger_website() throws Throwable {
-		
+		System.out.println("Hello Cucumber");
 		if(report==null)
 		{
 		createtestReport();
